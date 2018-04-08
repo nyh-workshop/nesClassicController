@@ -1,4 +1,4 @@
-#NES Classic Controller Driver for Arduino
+# NES Classic Controller Driver for Arduino
 
 Basically, these controllers are with the Nintendo Wii port and they are using the normal I2C protocol.
 
@@ -8,7 +8,7 @@ For a less messy test, you can use the WiiChuck adapter which is available at lo
 
 ![alt tag](https://github.com/uncle-yong/nesClassicController/blob/master/wii-nunchuck-adapter-arduino.jpg)
 
-###Connection:
+### Connection:
 - SCL   -> c
 - SDA   -> d
 - +3.3V -> +
@@ -16,12 +16,12 @@ For a less messy test, you can use the WiiChuck adapter which is available at lo
 
 There is a simple test app in the library if you want to test the controller. The test shows what button you have pressed in the serial terminal window.
 
-###Requirements:
+### Requirements:
 - Arduino Uno
 - Four jumpers (male-to-female)
 - Wii Nunchuck adapter breakout
 - NES Classic Controller
 
-###References:
+### References:
 - https://github.com/coopermaa/Wiichuck/blob/master/-Wiichuck.cpp
 - https://gist.github.com/DavisDev/e6ca7169b669504255e96963137318b0
